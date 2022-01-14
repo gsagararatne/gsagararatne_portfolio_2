@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>KPSS on Githen(dra) Sagararatne</title>
-    <link>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/kpss/</link>
+    <link>https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/kpss/</link>
     <description>Recent content in KPSS on Githen(dra) Sagararatne</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://gsagararatne.github.io/gsararatne_portfolio_2/tags/kpss/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/kpss/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bike Share Toronto Trends</title>
-      <link>https://gsagararatne.github.io/gsararatne_portfolio_2/post/bikesharetorontotrends/</link>
+      <link>https://gsagararatne.github.io/gsagararatne_portfolio_2/post/bikesharetorontotrends/</link>
       <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://gsagararatne.github.io/gsararatne_portfolio_2/post/bikesharetorontotrends/</guid>
+      <guid>https://gsagararatne.github.io/gsagararatne_portfolio_2/post/bikesharetorontotrends/</guid>
       
         <description>Analysed bike usage from Bike Share Toronto to bring in usage insights of 5 years and forecast usage for 2 years using time-series.</description>
       

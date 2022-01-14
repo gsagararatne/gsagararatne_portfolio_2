@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>XGBoost on Githen(dra) Sagararatne</title>
-    <link>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/xgboost/</link>
+    <link>https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/xgboost/</link>
     <description>Recent content in XGBoost on Githen(dra) Sagararatne</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 31 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://gsagararatne.github.io/gsararatne_portfolio_2/tags/xgboost/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 31 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/xgboost/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rating FRIENDS with NLP</title>
-      <link>https://gsagararatne.github.io/gsararatne_portfolio_2/post/ratingfriendswithnlp/</link>
+      <link>https://gsagararatne.github.io/gsagararatne_portfolio_2/post/ratingfriendswithnlp/</link>
       <pubDate>Tue, 31 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gsagararatne.github.io/gsararatne_portfolio_2/post/ratingfriendswithnlp/</guid>
+      <guid>https://gsagararatne.github.io/gsagararatne_portfolio_2/post/ratingfriendswithnlp/</guid>
       
         <description>Predicted IMDb show ratings of FRIENDS based on the number of times a character spoke.</description>
       
