@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Githen(dra) Sagararatne</title>
-    <link>https://example.com/tags/</link>
+    <link>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/</link>
     <description>Recent content in Tags on Githen(dra) Sagararatne</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://gsagararatne.github.io/gsararatne_portfolio_2/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ADF</title>
-      <link>https://example.com/tags/adf/</link>
+      <link>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/adf/</link>
       <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/adf/</guid>
+      <guid>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/adf/</guid>
       
         <description></description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>F-Prophet</title>
-      <link>https://example.com/tags/f-prophet/</link>
+      <link>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/f-prophet/</link>
       <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/f-prophet/</guid>
+      <guid>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/f-prophet/</guid>
       
         <description></description>
       
@@ -31,10 +31,10 @@
     
     <item>
       <title>KPSS</title>
-      <link>https://example.com/tags/kpss/</link>
+      <link>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/kpss/</link>
       <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/kpss/</guid>
+      <guid>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/kpss/</guid>
       
         <description></description>
       
@@ -42,10 +42,10 @@
     
     <item>
       <title>SARIMA</title>
-      <link>https://example.com/tags/sarima/</link>
+      <link>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/sarima/</link>
       <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/sarima/</guid>
+      <guid>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/sarima/</guid>
       
         <description></description>
       
@@ -53,10 +53,10 @@
     
     <item>
       <title>Tableau</title>
-      <link>https://example.com/tags/tableau/</link>
+      <link>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/tableau/</link>
       <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/tableau/</guid>
+      <guid>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/tableau/</guid>
       
         <description></description>
       
@@ -64,10 +64,10 @@
     
     <item>
       <title>Time-Series</title>
-      <link>https://example.com/tags/time-series/</link>
+      <link>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/time-series/</link>
       <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/time-series/</guid>
+      <guid>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/time-series/</guid>
       
         <description></description>
       
@@ -75,10 +75,10 @@
     
     <item>
       <title>AWS</title>
-      <link>https://example.com/tags/aws/</link>
+      <link>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/aws/</link>
       <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/aws/</guid>
+      <guid>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/aws/</guid>
       
         <description></description>
       
@@ -86,10 +86,10 @@
     
     <item>
       <title>RNN</title>
-      <link>https://example.com/tags/rnn/</link>
+      <link>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/rnn/</link>
       <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/rnn/</guid>
+      <guid>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/rnn/</guid>
       
         <description></description>
       
@@ -97,10 +97,10 @@
     
     <item>
       <title>S3</title>
-      <link>https://example.com/tags/s3/</link>
+      <link>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/s3/</link>
       <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/s3/</guid>
+      <guid>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/s3/</guid>
       
         <description></description>
       
@@ -108,10 +108,10 @@
     
     <item>
       <title>TensorFlow</title>
-      <link>https://example.com/tags/tensorflow/</link>
+      <link>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/tensorflow/</link>
       <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/tensorflow/</guid>
+      <guid>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/tensorflow/</guid>
       
         <description></description>
       
@@ -119,10 +119,10 @@
     
     <item>
       <title>Chi Squared Test</title>
-      <link>https://example.com/tags/chi-squared-test/</link>
+      <link>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/chi-squared-test/</link>
       <pubDate>Mon, 29 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/chi-squared-test/</guid>
+      <guid>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/chi-squared-test/</guid>
       
         <description></description>
       
@@ -130,10 +130,10 @@
     
     <item>
       <title>Linear Regression</title>
-      <link>https://example.com/tags/linear-regression/</link>
+      <link>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/linear-regression/</link>
       <pubDate>Mon, 29 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/linear-regression/</guid>
+      <guid>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/linear-regression/</guid>
       
         <description></description>
       
@@ -141,10 +141,10 @@
     
     <item>
       <title>QQ plot</title>
-      <link>https://example.com/tags/qq-plot/</link>
+      <link>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/qq-plot/</link>
       <pubDate>Mon, 29 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/qq-plot/</guid>
+      <guid>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/qq-plot/</guid>
       
         <description></description>
       
@@ -152,10 +152,10 @@
     
     <item>
       <title>Wilcoxon Sign Test</title>
-      <link>https://example.com/tags/wilcoxon-sign-test/</link>
+      <link>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/wilcoxon-sign-test/</link>
       <pubDate>Mon, 29 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/wilcoxon-sign-test/</guid>
+      <guid>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/wilcoxon-sign-test/</guid>
       
         <description></description>
       
@@ -163,10 +163,10 @@
     
     <item>
       <title>LogisticRegression</title>
-      <link>https://example.com/tags/logisticregression/</link>
+      <link>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/logisticregression/</link>
       <pubDate>Tue, 31 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/logisticregression/</guid>
+      <guid>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/logisticregression/</guid>
       
         <description></description>
       
@@ -174,10 +174,10 @@
     
     <item>
       <title>NLP</title>
-      <link>https://example.com/tags/nlp/</link>
+      <link>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/nlp/</link>
       <pubDate>Tue, 31 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/nlp/</guid>
+      <guid>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/nlp/</guid>
       
         <description></description>
       
@@ -185,10 +185,10 @@
     
     <item>
       <title>XGBoost</title>
-      <link>https://example.com/tags/xgboost/</link>
+      <link>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/xgboost/</link>
       <pubDate>Tue, 31 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/xgboost/</guid>
+      <guid>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/xgboost/</guid>
       
         <description></description>
       
@@ -196,10 +196,10 @@
     
     <item>
       <title>index</title>
-      <link>https://example.com/tags/index/</link>
+      <link>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/index/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/index/</guid>
+      <guid>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/index/</guid>
       
         <description></description>
       

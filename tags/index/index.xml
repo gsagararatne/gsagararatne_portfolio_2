@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>index on Githen(dra) Sagararatne</title>
-    <link>https://example.com/tags/index/</link>
+    <link>https://gsagararatne.github.io/gsararatne_portfolio_2/tags/index/</link>
     <description>Recent content in index on Githen(dra) Sagararatne</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://example.com/tags/index/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://gsagararatne.github.io/gsararatne_portfolio_2/tags/index/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posts</title>
-      <link>https://example.com/post/</link>
+      <link>https://gsagararatne.github.io/gsararatne_portfolio_2/post/</link>
       <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/</guid>
+      <guid>https://gsagararatne.github.io/gsararatne_portfolio_2/post/</guid>
       
         <description></description>
       
