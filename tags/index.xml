@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Githen(dra) Sagararatne</title>
+    <link>https://example.com/tags/</link>
+    <description>Recent content in Tags on Githen(dra) Sagararatne</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 04 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ADF</title>
+      <link>https://example.com/tags/adf/</link>
+      <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/adf/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>F-Prophet</title>
+      <link>https://example.com/tags/f-prophet/</link>
+      <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/f-prophet/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>KPSS</title>
+      <link>https://example.com/tags/kpss/</link>
+      <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/kpss/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>SARIMA</title>
+      <link>https://example.com/tags/sarima/</link>
+      <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/sarima/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tableau</title>
+      <link>https://example.com/tags/tableau/</link>
+      <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/tableau/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Time-Series</title>
+      <link>https://example.com/tags/time-series/</link>
+      <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/time-series/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>AWS</title>
+      <link>https://example.com/tags/aws/</link>
+      <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/aws/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>RNN</title>
+      <link>https://example.com/tags/rnn/</link>
+      <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/rnn/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>S3</title>
+      <link>https://example.com/tags/s3/</link>
+      <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/s3/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>TensorFlow</title>
+      <link>https://example.com/tags/tensorflow/</link>
+      <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/tensorflow/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Chi Squared Test</title>
+      <link>https://example.com/tags/chi-squared-test/</link>
+      <pubDate>Mon, 29 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/chi-squared-test/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Linear Regression</title>
+      <link>https://example.com/tags/linear-regression/</link>
+      <pubDate>Mon, 29 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/linear-regression/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>QQ plot</title>
+      <link>https://example.com/tags/qq-plot/</link>
+      <pubDate>Mon, 29 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/qq-plot/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Wilcoxon Sign Test</title>
+      <link>https://example.com/tags/wilcoxon-sign-test/</link>
+      <pubDate>Mon, 29 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/wilcoxon-sign-test/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>LogisticRegression</title>
+      <link>https://example.com/tags/logisticregression/</link>
+      <pubDate>Tue, 31 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/logisticregression/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>NLP</title>
+      <link>https://example.com/tags/nlp/</link>
+      <pubDate>Tue, 31 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/nlp/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>XGBoost</title>
+      <link>https://example.com/tags/xgboost/</link>
+      <pubDate>Tue, 31 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/xgboost/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>index</title>
+      <link>https://example.com/tags/index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/index/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

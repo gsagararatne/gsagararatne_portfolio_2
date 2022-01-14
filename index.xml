@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Githen(dra) Sagararatne</title>
+    <link>https://example.com/</link>
+    <description>Recent content on Githen(dra) Sagararatne</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 04 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://example.com/about/</link>
+      <pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/about/</guid>
+      
+        <description>Call me &amp;ldquo;Dra&amp;rdquo; Came to Canada as an international student for university.</description>
+      
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://example.com/contact/</link>
+      <pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/contact/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Bike Share Toronto Trends</title>
+      <link>https://example.com/post/bikesharetorontotrends/</link>
+      <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/post/bikesharetorontotrends/</guid>
+      
+        <description>Analysed bike usage from Bike Share Toronto to bring in usage insights of 5 years and forecast usage for 2 years using time-series.</description>
+      
+    </item>
+    
+    <item>
+      <title>Rap Lyrics Generator</title>
+      <link>https://example.com/post/raplyricsgenerator/</link>
+      <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/post/raplyricsgenerator/</guid>
+      
+        <description>Deployed a rap lyrics generator on streamlit by hosting trained RNN model on an AWS S3 bucket.</description>
+      
+    </item>
+    
+    <item>
+      <title>Fitbit Sleep Analysis</title>
+      <link>https://example.com/post/fitbitsleepanalysis/</link>
+      <pubDate>Mon, 29 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/post/fitbitsleepanalysis/</guid>
+      
+        <description>Analysing my quality of sleep and activity levels during different parts of my life through linear regression and non-parametrics tests.</description>
+      
+    </item>
+    
+    <item>
+      <title>Rating FRIENDS with NLP</title>
+      <link>https://example.com/post/ratingfriendswithnlp/</link>
+      <pubDate>Tue, 31 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/post/ratingfriendswithnlp/</guid>
+      
+        <description>Predicted IMDb show ratings of FRIENDS based on the number of times a character spoke.</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/archives/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/archives/</guid>
+      
+        <description>[[socialIcons]] icon = &amp;ldquo;fab fa-instagram&amp;rdquo; title = &amp;ldquo;instagram&amp;rdquo; url = &amp;ldquo;https://www.</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/imprint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/imprint/</guid>
+      
+        <description>Legal Disclosure Information in accordance with the applicable law
+Jane Doe</description>
+      
+    </item>
+    
+  </channel>
+</rss>
