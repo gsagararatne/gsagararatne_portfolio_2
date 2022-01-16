@@ -156,7 +156,7 @@
 
     ,
         "url" : "https:\/\/gsagararatne.github.io\/gsagararatne_portfolio_2\/post\/ratingfriendswithnlp\/",
-        "wordCount" : "177",
+        "wordCount" : "514",
         "genre" : [ ],
         "keywords" : [ 
       
@@ -239,18 +239,6 @@
               
               title=""
               >About Myself</a
-            >
-          </li>
-
-        
-          
-          <li>
-            <a
-              
-              href="https://gsagararatne.github.io/gsagararatne_portfolio_2/contact/"
-              
-              title=""
-              >Contact</a
             >
           </li>
 
@@ -366,7 +354,7 @@
               </span
             >
             <em class="fas fa-stopwatch"></em>
-            <span class="reading-time">One-minute read</span>
+            <span class="reading-time">3-minute read</span>
           </div>
 
         
@@ -382,14 +370,111 @@
 <hr>
 <h2 id="backstory">Backstory</h2>
 <p>I refuse to to watch the last few episodes or last season of a TV show because I don&rsquo;t want the TV  show to end. That got me thinking of ways to predict show ratings. No, I still haven&rsquo;t finished the last season of FREINDS&hellip; but if I do go back to it&hellip; was I on a break?</p>
+<hr>
 <h2 id="project-summary">Project Summary</h2>
 <ul>
 <li>Analysed and performed NLP on script datasets of FRIENDS from kaggle to identify how each FRIENDS character affected the IMDb ratings</li>
-<li>Created a pipeline and developed a Logistic Regression model  to predict 218 episode show ratings of FRIENDS with a cross validation score of 60.9%</li>
+<li>Created a pipeline and developed a Logistic Regression model  to predict 218 episode show ratings of FRIENDS with a cross validation score of 61.4%</li>
 <li>Implemented XGBoost to achieve a maximum 5 fold cv score of of 62.6%</li>
 <li>Implemented Deep Learning (TensorFlow) model to achieve 5-fold cv score of 55.45%</li>
 <li>Further quantified validation scores by analysing precision, recall, AUC and ROC scores of machine learning models</li>
 </ul>
+<hr>
+<h2 id="project-results">Project Results</h2>
+<h3 id="feature-engineering">Feature Engineering</h3>
+<p><figure class="big"><img src="https://gsagararatne.github.io/gsagararatne_portfolio_2/images/FRIENDSNLPThumbsUp.PNG"/>
+</figure>
+
+<strong>thumbs_up</strong> is a feature that classifies ratings above the mean rating as 1, and 0 when below. The mean rating for the show is 8.4/10 from an IMDb score rate
+Observations:</p>
+<ul>
+<li>Episodes written by more than one writer seemed to score higher ratings</li>
+<li>Episodes directed by Ross (David Schwimmer) and Kevin Bright seemed to score higher ratings</li>
+<li>Episodes written by Gary Halvorson seemed to be tied</li>
+<li>Episodes written by other directors seemed to score lower than the average ratings</li>
+</ul>
+<h3 id="final-model">Final Model</h3>
+<figure class="big"><img src="https://gsagararatne.github.io/gsagararatne_portfolio_2/images/FRIENDSNLPModel.PNG"/>
+</figure>
+
+<p>Modelling Procedure:</p>
+<ul>
+<li>I ran a Grid Search on 3 main models to identify my base model
+<ul>
+<li>Decision Tree</li>
+<li>Logistic Regression</li>
+<li>KNN</li>
+</ul>
+</li>
+<li>With Logistic Regression as the best base model, I fine tuned it with another Grid Search</li>
+<li>Model stats
+<ul>
+<li>Max 5 fold cross validation score of 61.4%</li>
+<li>ROC: 0.52</li>
+<li>Type I (False Pos) error: 25%</li>
+<li>Type II (False Neg) error: 22.7%</li>
+<li>Precision (Pos Predictive Value): 54%</li>
+<li>Recall (True Pos Value): 57%</li>
+</ul>
+</li>
+</ul>
+<p>Personally am not satisfied with how my modelling turned out, and I strongly believe it&rsquo;s due to the lack of data available. I intend to do another project with a lot more data available.</p>
+<h3 id="main-features">Main Features</h3>
+<figure class="big"><img src="https://gsagararatne.github.io/gsagararatne_portfolio_2/images/FRIENDSNLPMainFeatures.PNG"/>
+</figure>
+
+<p>Main features I modelled with:</p>
+<ul>
+<li>IMDB stats</li>
+<li>Writers and directors</li>
+<li>Character lines
+<br></li>
+</ul>
+<figure class="big"><img src="https://gsagararatne.github.io/gsagararatne_portfolio_2/images/FRIENDSNLPUSViewers.PNG"/>
+</figure>
+
+<p>With <code>us_viewers_mill</code> being the most prominent positive feature, a little EDA to showcase the behaviour throughout the 10 seasons of FRIENDS. A dampened Sine wave pattern can be observed from Season 1-10.</p>
+<h3 id="character-lines">Character Lines</h3>
+<figure class="big"><img src="https://gsagararatne.github.io/gsagararatne_portfolio_2/images/FRIENDSNLPCharLines.PNG"/>
+</figure>
+
+<p>Most positive and negative character line features:</p>
+<ul>
+<li>Positive
+<ul>
+<li>Joey
+<ul>
+<li>For every additional line that Joey talks, the odds of a thumbs up increases by 15.2%</li>
+</ul>
+</li>
+<li>Janice
+<ul>
+<li>For every additional line that Janice talks, the odds of a thumbs up increases by 5.8%</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Negative
+<ul>
+<li>Chandler
+<ul>
+<li>For every additional line that Chandler talks, the odds of a thumbs up decreases by 12.5%</li>
+</ul>
+</li>
+<li>Rachel
+<ul>
+<li>For every additional line that Rachel talks, the odds of a thumbs up decreases by 8.7%</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="xg-boost-and-deep-learning">XG Boost and Deep Learning</h3>
+<ul>
+<li>XGBoost: Max 5 fold CV score of 62.6%</li>
+<li>Deep Learning: Max 5 fold CV score of 55.45%</li>
+</ul>
+<hr>
 <h2 id="python-libraries">Python Libraries</h2>
 <ul>
 <li>numpy</li>
@@ -401,6 +486,7 @@
 <li>random</li>
 <li>glob</li>
 </ul>
+<hr>
 <h2 id="integrations">Integrations</h2>
 <ul>
 <li><a href="https://github.com/gsagararatne/Rating-FRIENDS-with-NLP">Github Repo</a></li>
