@@ -156,32 +156,46 @@
 
     ,
         "url" : "https:\/\/gsagararatne.github.io\/gsagararatne_portfolio_2\/post\/fitbitsleepanalysis\/",
-        "wordCount" : "161",
+        "wordCount" : "485",
         "genre" : [ ],
         "keywords" : [ 
       
-      "Wilcoxon Sign Test"
+      "WilcoxonSignedRankTest"
 
     
       
         ,
 
       
-      "Linear Regression"
+      "LinearRegression"
 
     
       
         ,
 
       
-      "QQ plot"
+      "QQPlot"
 
     
       
         ,
 
       
-      "Chi Squared Test"
+      "ChiSquaredTest"
+
+    
+      
+        ,
+
+      
+      "ShapiroWilkTest"
+
+    
+      
+        ,
+
+      
+      "LogisticRegression"
 
     ]
     }
@@ -369,27 +383,75 @@
               </span
             >
             <em class="fas fa-stopwatch"></em>
-            <span class="reading-time">One-minute read</span>
+            <span class="reading-time">3-minute read</span>
           </div>
 
         
       </div><p>Analysing my quality of sleep and activity levels during different parts of my life through linear regression and non-parametrics tests.</p>
 <hr>
 <h3 id="video-summary">Video Summary</h3>
-
+<p>MAKING A FEW EDITS. WILL BE POSTED SHORTLY!</p>
+<!-- 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/qwMC3FuT74M" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
-
-<br>
+ -->
+<!-- <br> -->
 <hr>
 <h2 id="backstory">Backstory</h2>
 <p>I bought a Fitbit during my last semester (9th Feb 2021) of university with the intention of tracking and analysing my sleep quality to improve productivity. However, now that I&rsquo;ve started powerlifting, I wanted to know if sleep has improved due to physical exertion.</p>
+<hr>
 <h2 id="project-summary">Project Summary</h2>
 <ul>
 <li>Extracted 261 days of fitbit json files through an API to analyse activity and sleeping patterns of different parts of my life through Chi Squared and Wilcoxon Signed Rank tests</li>
 <li>Built linear regression models to identify sleep induced and efficiency metrics that predicted 7 hours of daily sleep to be optimal and restless being the factor that hindered my quality of sleep</li>
 </ul>
+<hr>
+<h2 id="project-results">Project Results</h2>
+<h3 id="physical-consistency">Physical consistency</h3>
+<figure class="big"><img src="https://gsagararatne.github.io/gsagararatne_portfolio_2/images/calories_burned.PNG"/>
+</figure>
+
+<p>The absence of outliers in calories burnt after powerlifting proves that once I started powerlifting, I built physical structure and consistency. I train 4 days a week (Monday, Wednesday, Friday and Saturday); the calories burnt during those days are the higher than my rest days.</p>
+<h3 id="q1-has-my-sleep-quality-changed-over-my-timeline">Q1. Has my sleep quality changed over my timeline?</h3>
+<figure class="big"><img src="https://gsagararatne.github.io/gsagararatne_portfolio_2/images/fitbitChiTable.PNG"/>
+</figure>
+
+<p>Since the data was categorical, I used the Chi-Squared test for independence.
+My Null and Alternative hypothesis were:</p>
+<blockquote>
+<p><strong>H0:</strong> No relationship present between the categorical values.</p>
+</blockquote>
+<blockquote>
+<p><strong>H1:</strong> Relationship present.</p>
+</blockquote>
+<p>After running the test, I attained a p-value &gt; 0.05. Meaning that there isn’t sufficient evidence to reject my null hypothesis.</p>
+<h3 id="q2-has-powerlifting-made-a-difference-in-sleep">Q2. Has powerlifting made a difference in sleep?</h3>
+<figure class="big"><img src="https://gsagararatne.github.io/gsagararatne_portfolio_2/images/fitbitWilcoxon.PNG"/>
+</figure>
+
+<p>Confirmed that the data distribution was not normal through a histogram, Shapiro-wilk test and a QQ-plot. Ran a Wilcoxon Signed Rank Test.</p>
+<blockquote>
+<p><strong>H0:</strong> No difference in overall sleep score once I started lifting.</p>
+</blockquote>
+<blockquote>
+<p><strong>H1:</strong>  There is a difference.</p>
+</blockquote>
+<p>I attained a p-value &gt; 0.05 meaning that there isn’t enough evidence to reject my null hypothesis.</p>
+<h3 id="q3-do-i-build-a-sleep-deficit">Q3. Do I build a sleep deficit?</h3>
+<figure class="big"><img src="https://gsagararatne.github.io/gsagararatne_portfolio_2/images/linear_regression_sleep_deficit.PNG" width="400" height="280"/>
+</figure>
+
+<!--<figure class="big"><img src="https://gsagararatne.github.io/gsagararatne_portfolio_2/images/fitbitResHistHomo.PNG"/>
+</figure>
+-->
+<p>I feature engineered <strong>sleep deficit</strong> and given that it was normally distributed, I ran a linear regression and achieved a statistically significant result. I do sleep longer the following day if I don’t get enough sleep the previous night. Now my sweet spot would be about 7 hours of sleep a day.</p>
+<h3 id="q4-is-amount-or-quality-of-sleep-more-important">Q4. Is amount or quality of sleep more important?</h3>
+<figure class="big"><img src="https://gsagararatne.github.io/gsagararatne_portfolio_2/images/fitbitLogReg.PNG"/>
+</figure>
+
+<p><strong>good_sleep</strong> is a value that takes the value 1 when my overall sleep score is 80 or greater. Anything below that and I always recall waking up groggy and feeling sick-like.</p>
+<p>I ran a logistic regression model but was not able to consider <strong>sleep_efficiency</strong>  since it wasn&rsquo;t statistically significant. However, having uninterrupted sleep is more important than interrupted sleep. Can confirm that 1 hour of interrupted sleep (wake_time) decreases the odds of good_sleep by 97.7%.</p>
 <!--
 ## Project Details
 <figure class="left"><img src="https://gsagararatne.github.io/gsagararatne_portfolio_2/images/fitbitpicture2.jpg" width="400" height="280"/>
@@ -439,6 +501,7 @@
 
 
 -->
+<hr>
 <h2 id="python-libraries">Python Libraries</h2>
 <ul>
 <li>pandas</li>
@@ -453,6 +516,7 @@
 <li>statsmodels</li>
 <li>scipy</li>
 </ul>
+<hr>
 <h2 id="integrations">Integrations</h2>
 <ul>
 <li><a href="https://github.com/gsagararatne/DataSciencePortfolio/tree/main/FitbitSleepAnalysis">Github Repo</a></li>
@@ -463,7 +527,7 @@
         
 
         
-          <span class="separator"><a class="tag" href="https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/wilcoxon-sign-test/">Wilcoxon Sign Test</a><a class="tag" href="https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/linear-regression/">Linear Regression</a><a class="tag" href="https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/qq-plot/">QQ plot</a><a class="tag" href="https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/chi-squared-test/">Chi Squared Test</a></span>
+          <span class="separator"><a class="tag" href="https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/wilcoxonsignedranktest/">WilcoxonSignedRankTest</a><a class="tag" href="https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/linearregression/">LinearRegression</a><a class="tag" href="https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/qqplot/">QQPlot</a><a class="tag" href="https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/chisquaredtest/">ChiSquaredTest</a><a class="tag" href="https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/shapirowilktest/">ShapiroWilkTest</a><a class="tag" href="https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/logisticregression/">LogisticRegression</a></span>
 
 
 

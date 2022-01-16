@@ -156,7 +156,7 @@
 
     ,
         "url" : "https:\/\/gsagararatne.github.io\/gsagararatne_portfolio_2\/post\/bikesharetorontotrends\/",
-        "wordCount" : "143",
+        "wordCount" : "418",
         "genre" : [ ],
         "keywords" : [ 
       
@@ -380,19 +380,99 @@
               </span
             >
             <em class="fas fa-stopwatch"></em>
-            <span class="reading-time">One-minute read</span>
+            <span class="reading-time">2-minute read</span>
           </div>
 
         
       </div><p>Analysed bike usage from Bike Share Toronto to bring in usage insights of 5 years and forecast usage for 2 years using time-series.</p>
+<hr>
+<h3 id="video-summary">Video Summary</h3>
+<p>COMING SOON</p>
+<!-- <br> -->
+<hr>
 <h2 id="backstory">Backstory</h2>
 <p>I started biking to the gym with my roommate during the summer of 2021. While he had his own bike, I would rent a bike for every use from Bike Share Toronto. We&rsquo;d ride to the gym during sunny and rainy days. That got me thinking of this service&rsquo;s usage.</p>
+<hr>
 <h2 id="project-summary">Project Summary</h2>
 <ul>
 <li>Analysed 5 years worth of data and drove insightful visuals of member and non member usage trends through an interactive Tableau dashboard</li>
 <li>Conducted Rolling Mean, ADF and KPSS tests to confirm stationarity of data</li>
 <li>Forecasted 2 years of bike usage by comparing the MAE scores of SARIMA and F-Prophet time-series models</li>
 </ul>
+<hr>
+<h2 id="project-results">Project Results</h2>
+<h3 id="stationary-tests">Stationary tests</h3>
+<figure class="big"><img src="https://gsagararatne.github.io/gsagararatne_portfolio_2/images/BikeShareRollingMean.PNG"/>
+</figure>
+
+<ul>
+<li>The Rolling Mean test visually showed that the mean and variance were not constant due to the upward trend.</li>
+<li>The  Augmented Dickey-Fuller test (ADF) test on base data proved that the data was not stationary. However, the ADF test on the log of the base data proved to be stationary.</li>
+<li>The Kwiatkowski-Phillips-Schmidt-Shin (KPSS) test on base data proved that the series is stationary around the deterministic trend.</li>
+</ul>
+<h3 id="building-sarima-model">Building SARIMA model</h3>
+<figure class="big"><img src="https://gsagararatne.github.io/gsagararatne_portfolio_2/images/BikeShareAutoCorr.PNG"/>
+</figure>
+
+<p>After plotting the Auto Correlation of the 1st difference, 1 and 7 were valid values for the p (AR) terms. This also secured the d=1 (I) term.</p>
+<figure class="big"><img src="https://gsagararatne.github.io/gsagararatne_portfolio_2/images/BikeSharePartialAutoCorr.PNG"/>
+</figure>
+
+<p>After plotting the Partial Auto Correlation of the the 1st difference, 1 seemed to be a vlid value for the q (MA) term.</p>
+<h3 id="compairing-sarima-and-f-prophet">Compairing SARIMA and F-Prophet</h3>
+<figure class="big"><img src="https://gsagararatne.github.io/gsagararatne_portfolio_2/images/BikeShareScores.PNG"/>
+</figure>
+
+<p>Ran a small loop to attain more accurate MAE and RMSE scores for SARIMA. However, F-Prophet seemed to be the most accurate model.</p>
+<h3 id="2-year-bike-usage-prediction-with-f-prophet">2 year bike usage prediction with F-Prophet</h3>
+<figure class="big"><img src="https://gsagararatne.github.io/gsagararatne_portfolio_2/images/FProphetPrediction.PNG"/>
+</figure>
+
+<ul>
+<li>2021
+<ul>
+<li>Dec predicted low of ~6.5K</li>
+</ul>
+</li>
+<li>2022
+<ul>
+<li>Aug-Sept predicted high of ~18.7K</li>
+<li>Dec predicted low of ~8.7K</li>
+</ul>
+</li>
+<li>2023
+<ul>
+<li>Aug-Sept predicted high of ~20.9K</li>
+</ul>
+</li>
+</ul>
+<h3 id="usage-breakdown">Usage breakdown</h3>
+<figure class="big"><img src="https://gsagararatne.github.io/gsagararatne_portfolio_2/images/FProphetUsage.PNG"/>
+</figure>
+
+<ul>
+<li>Trend
+<ul>
+<li>An upward trend is seen all the way to the end of 2023. I notice a small upward elbow mid 2020 that increases the graph’s slow. Interesting to see!</li>
+</ul>
+</li>
+<li>Weekly
+<ul>
+<li>Above average usage is seen on Wednesday, Friday and Saturday</li>
+</ul>
+</li>
+<li>Yearly
+<ul>
+<li>Above average usage is seen during early May to late October</li>
+</ul>
+</li>
+<li>Daily
+<ul>
+<li>There seems to be a small spike around 6 am, noon and 5 pm. I assume this corresponds to the schedules of the working class. Bike rides are forecasted to peak during late night/midnight</li>
+</ul>
+</li>
+</ul>
+<hr>
 <h2 id="python-libraries">Python Libraries</h2>
 <ul>
 <li>pandas</li>
@@ -407,6 +487,7 @@
 <li>fbprophet</li>
 <li>random</li>
 </ul>
+<hr>
 <h2 id="integrations">Integrations</h2>
 <ul>
 <li><a href="https://github.com/gsagararatne/DataSciencePortfolio/tree/main/BikeShareToronto">Github Repo</a></li>

@@ -118,44 +118,22 @@
     </item>
     
     <item>
-      <title>Chi Squared Test</title>
-      <link>https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/chi-squared-test/</link>
+      <title>ChiSquaredTest</title>
+      <link>https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/chisquaredtest/</link>
       <pubDate>Mon, 29 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/chi-squared-test/</guid>
+      <guid>https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/chisquaredtest/</guid>
       
         <description></description>
       
     </item>
     
     <item>
-      <title>Linear Regression</title>
-      <link>https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/linear-regression/</link>
+      <title>LinearRegression</title>
+      <link>https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/linearregression/</link>
       <pubDate>Mon, 29 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/linear-regression/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>QQ plot</title>
-      <link>https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/qq-plot/</link>
-      <pubDate>Mon, 29 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/qq-plot/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Wilcoxon Sign Test</title>
-      <link>https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/wilcoxon-sign-test/</link>
-      <pubDate>Mon, 29 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/wilcoxon-sign-test/</guid>
+      <guid>https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/linearregression/</guid>
       
         <description></description>
       
@@ -164,9 +142,42 @@
     <item>
       <title>LogisticRegression</title>
       <link>https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/logisticregression/</link>
-      <pubDate>Tue, 31 Aug 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 29 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/logisticregression/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>QQPlot</title>
+      <link>https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/qqplot/</link>
+      <pubDate>Mon, 29 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/qqplot/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>ShapiroWilkTest</title>
+      <link>https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/shapirowilktest/</link>
+      <pubDate>Mon, 29 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/shapirowilktest/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>WilcoxonSignedRankTest</title>
+      <link>https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/wilcoxonsignedranktest/</link>
+      <pubDate>Mon, 29 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/wilcoxonsignedranktest/</guid>
       
         <description></description>
       

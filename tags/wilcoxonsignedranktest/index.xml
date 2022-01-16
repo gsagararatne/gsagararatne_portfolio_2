@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WilcoxonSignedRankTest on Githen(dra) Sagararatne</title>
+    <link>https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/wilcoxonsignedranktest/</link>
+    <description>Recent content in WilcoxonSignedRankTest on Githen(dra) Sagararatne</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 29 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://gsagararatne.github.io/gsagararatne_portfolio_2/tags/wilcoxonsignedranktest/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fitbit Sleep Analysis</title>
+      <link>https://gsagararatne.github.io/gsagararatne_portfolio_2/post/fitbitsleepanalysis/</link>
+      <pubDate>Mon, 29 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://gsagararatne.github.io/gsagararatne_portfolio_2/post/fitbitsleepanalysis/</guid>
+      
+        <description>Analysing my quality of sleep and activity levels during different parts of my life through linear regression and non-parametrics tests.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
